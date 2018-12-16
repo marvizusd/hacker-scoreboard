@@ -1,0 +1,23 @@
+{
+  "name": "hacker-scoreboard",
+  "version": "0.0.1",
+  "description": "Scoreboard to keep track of hacker points",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hacker",
+    "scoreboard"
+  ],
+  "author": "Miguel Arvizu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "passport": "^0.4.0"
+  }
+}
